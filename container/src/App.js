@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { createGenerateClassName, StylesProvider } from '@material-ui/core/styles';
 import Header from './components/Header';
